@@ -1,5 +1,5 @@
 
-package biblioteca;
+package biblioteca.modelo;
 
 
 import java.security.MessageDigest;
@@ -12,7 +12,7 @@ public class SeguridadUtil {
             byte[] bytes = md.digest(texto.getBytes("UTF-8"));
             StringBuilder sb = new StringBuilder();
             for (byte b : bytes) {
-                sb.append(String.format("%02x", b));  // convierte a hexadecimal
+                sb.append(String.format("%02x", b));  
             }
             return sb.toString();
         } catch (Exception e) {

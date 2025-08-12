@@ -1,4 +1,6 @@
-package biblioteca;
+package biblioteca.modelo;
+
+import biblioteca.vista.Login;
 
 public class Main {
     public static void main(String[] args) {

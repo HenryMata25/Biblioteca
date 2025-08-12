@@ -2,8 +2,9 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/GUIForms/JFrame.java to edit this template
  */
-package biblioteca;
+package biblioteca.vista;
 
+import biblioteca.modelo.Libro;
 import java.io.FileWriter;
 import java.io.IOException;
 import javax.swing.JOptionPane;

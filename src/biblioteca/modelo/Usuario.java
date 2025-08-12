@@ -1,5 +1,5 @@
 
-package biblioteca;
+package biblioteca.modelo;
 
 
 public class Usuario {
